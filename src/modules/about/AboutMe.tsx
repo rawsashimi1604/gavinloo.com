@@ -3,12 +3,12 @@ import ImportantText from "../../components/typography/ImportantText";
 
 function AboutMe() {
   return (
-    <section className="font-customRoboto flex-col items-center justify-center mt-6">
+    <section className="font-customRoboto flex-col items-center justify-center mt-6 mb-16">
       <div className="mb-2">
         <Header text="About me." />
       </div>
 
-      <div className="mt-20 mb-16 flex justify-between gap-20">
+      <div className="mt-20 flex justify-between gap-20">
         <img src="profile.jpeg" className="rounded-full w-80" />
         <div>
           <h2 className="font-customEyeCatcher text-custom-chaKy text-4xl text-left">
@@ -16,7 +16,8 @@ function AboutMe() {
           </h2>
           <h4 className="font-medium font-customInter tracking-wide text-left mt-6 ">
             Over the past 1.5 years, I've worked in various areas across the web
-            stack, including frontend, backend as well as dabbled in devops.
+            stack, including frontend, backend as well as dabbled in devops. My
+            specialties lie in development and the domain of API Gateways.
           </h4>
           <h4 className="font-medium font-customInter tracking-wide text-left mt-4 ">
             Currently, I'm in my 3rd year studying my Bachelor's in Software
