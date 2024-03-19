@@ -4,6 +4,7 @@ import Header from "../../components/typography/Header";
 import { FaJava, FaLinux } from "react-icons/fa";
 import {
   SiAmazon,
+  SiAmazonaws,
   SiAmazonec2,
   SiAmazonroute53,
   SiAmazons3,
@@ -114,7 +115,10 @@ function ReadingListText({ text }: MethodTextProps) {
 function Skills() {
   return (
     <section>
-      <Header text="My Skills" />
+      <Header text="My Skills." />
+      <div className="mt-6">
+        <Comment text="# a list of technologies i've worked with in the past!" />
+      </div>
       <h2 className="font-customRoboto tracking-widest mt-6 flex-wrap">
         LANGUAGES
       </h2>
@@ -173,7 +177,7 @@ function Skills() {
         <SkillIcon icon={<SiBitbucket />} label="BB" />
         <SkillIcon icon={<SiAzuredevops />} label="AZURE" />
         <SkillIcon icon={<SiAzurepipelines />} label="PIPELINE" />
-        <SkillIcon icon={<SiAmazon />} label="AWS" />
+        <SkillIcon icon={<SiAmazonaws />} label="AWS" />
         <SkillIcon icon={<SiGithubactions />} label="GH ACTIONS" />
         <SkillIcon icon={<SiDocker />} label="DOCKER" />
         <SkillIcon icon={<SiKubernetes />} label="K8S" />
@@ -220,6 +224,8 @@ function Skills() {
       <div className="flex items-center gap-2 py-2 flex-wrap">
         <MethodText text="agile" />
         <MethodText text="scrum" />
+        <MethodText text="git flow" />
+        <MethodText text="mentoring" />
         <MethodText text="clean code" />
         <MethodText text="software design patterns" />
         <MethodText text="software testing (unit, integration, e2e)" />
@@ -239,7 +245,6 @@ function Skills() {
         <MethodText text="domain driven design" />
         <MethodText text="api gateway" />
         <MethodText text="test driven development" />
-        <MethodText text="mentoring" />
         <MethodText text="open source" />
       </div>
       <h2 className="font-customRoboto tracking-widest mt-6 ">READING LIST</h2>

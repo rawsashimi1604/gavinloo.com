@@ -26,7 +26,8 @@ export default {
       fontFamily: {
         customInter: ["Inter", "sans-serif"],
         customRoboto: ["Roboto", "sans-serif"],
-        customMono: ["JetBrains Mono Variable", "sans-serif"]
+        customMono: ["JetBrains Mono Variable", "sans-serif"],
+        customEyeCatcher: ["Berkshire Swash", "sans-serif"],
       }
     },
   },

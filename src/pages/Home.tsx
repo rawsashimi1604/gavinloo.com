@@ -2,7 +2,6 @@ import Container from "../components/layout/Container";
 import Hero from "../modules/home/Hero";
 import KeyPoints from "../modules/home/KeyPoints";
 import Skills from "../modules/home/Skills";
-import Footer from "../modules/home/Footer";
 
 function Home() {
   return (
@@ -18,8 +17,6 @@ function Home() {
       <div className="mt-16 mb-16">
         <Skills />
       </div>
-
-      <Footer />
     </Container>
   );
 }

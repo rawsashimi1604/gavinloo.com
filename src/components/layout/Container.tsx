@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export interface ContainerProps {
   children: React.ReactNode;
@@ -7,10 +8,13 @@ export interface ContainerProps {
 
 function Container({ children }: ContainerProps) {
   return (
-    <main className="bg-custom-bg text-custom-lightWhite min-w-screen min-h-screen px-10 flex justify-center">
+    <main className="bg-custom-bg text-custom-lightWhite min-w-screen min-h-screen px-10 flex justify-center pb-10 pt-2">
       <div className="w-[1000px]">
         <Navbar />
         {children}
+        <div className="pt-6">
+          <Footer />
+        </div>
       </div>
     </main>
   );
