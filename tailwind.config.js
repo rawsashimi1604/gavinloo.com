@@ -22,6 +22,10 @@ export default {
         'custom-deepRed': '#BE5046',
         "custom-custom-green": "#98c379",
         'custom-bg': "#282c34"
+      },
+      fontFamily: {
+        customInter: ["Inter", "sans-serif"],
+        customRoboto: ["Roboto", "sans-serif"]
       }
     },
   },
