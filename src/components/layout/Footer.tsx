@@ -5,7 +5,15 @@ function Footer() {
     <footer className="flex justify-between">
       {/* Spotify + copyright */}
       <div>
-        <div className="bg-custom-malibu/20 p-3 px-5 rounded-[40px] flex items-center gap-4 w-[400px] mb-10 font-customRoboto duration-150 cursor-pointer hover:-translate-y-2 ease-in-out">
+        <div
+          onClick={() =>
+            window.open(
+              "https://open.spotify.com/track/07QlP7twNI81IsqhKLFiER?si=a43e29aa1ee643b9",
+              "_blank"
+            )
+          }
+          className="bg-custom-malibu/20 p-3 px-5 rounded-[40px] flex items-center gap-4 w-[400px] mb-10 font-customRoboto duration-150 cursor-pointer hover:-translate-y-2 ease-in-out"
+        >
           <FaSpotify className="w-12 h-12" />
           <div className="">
             <h2 className="text-custom-lightDark">On repeat</h2>
@@ -20,10 +28,32 @@ function Footer() {
       <div className="flex gap-12">
         <ul className="flex flex-col gap-2">
           <li className="font-medium text-custom-chaKy mb-2">Other Links!</li>
-          <li className="font-medium">Github</li>
-          <li className="font-medium">CV</li>
-          <li className="font-medium">LinkedIn</li>
-          <li className="font-medium">Youtube</li>
+          <li className="font-medium">
+            <a href="https://github.com/rawsashimi1604" target="_blank">
+              Github
+            </a>
+          </li>
+          <li className="font-medium">
+            <a
+              href="https://www.linkedin.com/in/gavin-loo-853047143/"
+              target="_blank"
+            >
+              CV
+            </a>
+          </li>
+          <li className="font-medium">
+            <a
+              href="https://www.linkedin.com/in/gavin-loo-853047143/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li className="font-medium">
+            <a href="https://www.youtube.com/@codinggavin" target="_blank">
+              Youtube
+            </a>
+          </li>
         </ul>
 
         <ul className="flex flex-col gap-2">
