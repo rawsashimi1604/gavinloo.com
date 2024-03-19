@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../components/typography/Header";
+import ImportantText from "../../components/typography/ImportantText";
 
 function Hero() {
   return (
@@ -11,9 +12,7 @@ function Hero() {
         <Header text="A Software Engineer." />
       </div>
       <div className="flex w-full items-center justify-center">
-        <h2 className="text-sm text-center max-w-[50%] tracking-wider">
-          I'm passionate about the craft of software engineering.
-        </h2>
+        <ImportantText text="I'm passionate about the craft of software engineering." />
       </div>
     </section>
   );

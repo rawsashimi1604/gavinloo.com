@@ -9,7 +9,7 @@ export interface ContainerProps {
 function Container({ children }: ContainerProps) {
   return (
     <main className="bg-custom-bg text-custom-lightWhite min-w-screen min-h-screen px-10 flex justify-center pb-10 pt-2">
-      <div className="w-[1000px]">
+      <div className="w-[1000px] h-full">
         <Navbar />
         {children}
         <div className="pt-6">
