@@ -1,7 +1,12 @@
 import Container from "../components/layout/Container";
+import AboutMe from "../modules/about/AboutMe";
 
 function About() {
-  return <Container>About</Container>;
+  return (
+    <Container>
+      <AboutMe />
+    </Container>
+  );
 }
 
 export default About;
