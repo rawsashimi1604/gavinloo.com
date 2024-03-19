@@ -1,5 +1,6 @@
 import "@fontsource/roboto";
 import "@fontsource-variable/inter";
+import "@fontsource-variable/jetbrains-mono";
 import Home from "./pages/Home";
 
 function App() {

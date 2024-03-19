@@ -25,7 +25,8 @@ export default {
       },
       fontFamily: {
         customInter: ["Inter", "sans-serif"],
-        customRoboto: ["Roboto", "sans-serif"]
+        customRoboto: ["Roboto", "sans-serif"],
+        customMono: ["JetBrains Mono Variable", "sans-serif"]
       }
     },
   },
