@@ -53,6 +53,7 @@ import {
   SiSelenium,
   SiSpring,
   SiSqlite,
+  SiTailwindcss,
   SiTestinglibrary,
   SiVim,
   SiVisualstudiocode,
@@ -157,6 +158,7 @@ function Skills() {
         <SkillIcon icon={<SiReact />} label="REACT" />
         <SkillIcon icon={<SiNextdotjs />} label="NEXT" />
         <SkillIcon icon={<SiRedux />} label="REDUX" />
+        <SkillIcon icon={<SiTailwindcss />} label="TAILWIND" />
         <SkillIcon icon={<SiAxios />} label="AXIOS" />
         <SkillIcon icon={<SiExpress />} label="EXPRESS" />
         <SkillIcon icon={<SiPrisma />} label="PRISMA" />
