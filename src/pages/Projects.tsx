@@ -1,7 +1,7 @@
-import React from "react";
+import Container from "../components/layout/Container";
 
 function Projects() {
-  return <div>Projects</div>;
+  return <Container>Projects</Container>;
 }
 
 export default Projects;

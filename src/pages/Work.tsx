@@ -1,7 +1,7 @@
-import React from "react";
+import Container from "../components/layout/Container";
 
 function Work() {
-  return <div>Work</div>;
+  return <Container>Work</Container>;
 }
 
 export default Work;
