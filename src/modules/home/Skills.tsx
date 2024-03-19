@@ -71,6 +71,7 @@ import { SiGnubash } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { GoDotFill } from "react-icons/go";
 import Comment from "../../components/typography/Comment";
+import StringText from "../../components/typography/StringText";
 
 export interface SkillIconProps {
   icon: ReactElement;
@@ -116,8 +117,19 @@ function Skills() {
   return (
     <section>
       <Header text="My Skills." />
-      <div className="mt-6">
-        <Comment text="# a list of technologies i've worked with in the past!" />
+
+      {/* Console.log helper */}
+      <div className="mt-8 font-customMono animate-pulse">
+        <span className="text-custom-chaKy">console</span>
+        <span>.</span>
+        <span className="text-custom-malibu">log</span>
+        <span>(</span>
+        <StringText
+          text={JSON.stringify(
+            "a list of technologies i've worked with in the past!"
+          )}
+        />
+        <span>)</span>
       </div>
       <h2 className="font-customRoboto tracking-widest mt-6 flex-wrap">
         LANGUAGES
