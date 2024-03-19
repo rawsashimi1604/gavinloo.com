@@ -58,7 +58,9 @@ function Footer() {
 
         <ul className="flex flex-col gap-2">
           <li className="font-medium text-custom-chaKy mb-2">Contact</li>
-          <li className="font-medium">Email</li>
+          <li className="font-medium">
+            <a href="mailto:looweiren@gmail.com">Email</a>
+          </li>
         </ul>
       </div>
     </footer>
