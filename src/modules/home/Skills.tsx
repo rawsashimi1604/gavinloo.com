@@ -72,6 +72,7 @@ import { SiReact } from "react-icons/si";
 import { GoDotFill } from "react-icons/go";
 import Comment from "../../components/typography/Comment";
 import StringText from "../../components/typography/StringText";
+import ConsoleLog from "../../components/typography/ConsoleLog";
 
 export interface SkillIconProps {
   icon: ReactElement;
@@ -118,19 +119,10 @@ function Skills() {
     <section>
       <Header text="My Skills." />
 
-      {/* Console.log helper */}
-      <div className="mt-8 font-customMono animate-pulse">
-        <span className="text-custom-chaKy">console</span>
-        <span>.</span>
-        <span className="text-custom-malibu">log</span>
-        <span>(</span>
-        <StringText
-          text={JSON.stringify(
-            "a list of technologies i've worked with in the past!"
-          )}
-        />
-        <span>)</span>
+      <div className="mt-8">
+        <ConsoleLog text="a list of technologies i've worked with in the past!" />
       </div>
+
       <h2 className="font-customRoboto tracking-widest mt-6 flex-wrap">
         LANGUAGES
       </h2>
@@ -232,7 +224,7 @@ function Skills() {
       <h2 className="font-customRoboto tracking-widest mt-6 ">
         METHODOLOGIES x CONCEPTS
       </h2>
-      <Comment text="# stuff i've picked up over the years." />
+      <Comment text="// stuff i've picked up over the years." />
       <div className="flex items-center gap-2 py-2 flex-wrap">
         <MethodText text="agile" />
         <MethodText text="scrum" />
@@ -261,7 +253,7 @@ function Skills() {
       </div>
       <h2 className="font-customRoboto tracking-widest mt-6 ">READING LIST</h2>
 
-      <Comment text="# currently reading and past books i've read." />
+      <Comment text="// currently reading and past books i've read." />
       <div className="flex flex-col justify-center gap-2 py-2 flex-wrap">
         <ReadingListText text="Clean Code: A Handbook of Agile Software Craftsmanship - Robert Martin" />
         <ReadingListText text="Design Patterns - Gang of Four" />
