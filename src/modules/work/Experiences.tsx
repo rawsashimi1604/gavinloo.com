@@ -33,8 +33,8 @@ function Experiences() {
         <ConsoleLog text="i'm currently on a Work Study Degree program with Standard Chartered Bank. it's a term in term out program consisting of 3 total cycles. on my 3rd cycle now!" />
       </div>
 
-      <div className="font-customMono">
-        <h3 className="mt-4 text-lg  text-custom-fountainBlue">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+        <h3 className="text-lg  text-custom-fountainBlue">
           Standard Chartered Bank
         </h3>
         <span>
@@ -50,8 +50,8 @@ function Experiences() {
         <div className="mt-2 text-sm">- Work ongoing!</div>
       </div>
 
-      <div className="font-customMono">
-        <h3 className="mt-4 text-lg  text-custom-fountainBlue">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+        <h3 className="text-lg  text-custom-fountainBlue">
           Singapore Institute of Technology
         </h3>
         <span>
@@ -123,8 +123,8 @@ function Experiences() {
         </div>
       </div>
 
-      <div className="font-customMono">
-        <h3 className="mt-4 text-lg  text-custom-fountainBlue">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+        <h3 className="text-lg  text-custom-fountainBlue">
           Standard Chartered Bank
         </h3>
         <span>
@@ -176,8 +176,8 @@ function Experiences() {
         </div>
       </div>
 
-      <div className="font-customMono">
-        <h3 className="mt-8 text-lg  text-custom-fountainBlue">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+        <h3 className="text-lg  text-custom-fountainBlue">
           Standard Chartered Bank
         </h3>
         <span>
@@ -235,8 +235,8 @@ function Experiences() {
         SCHOOL
       </h2>
 
-      <div className="font-customMono">
-        <h3 className="mt-4 text-lg  text-custom-fountainBlue">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+        <h3 className="text-lg  text-custom-fountainBlue">
           Singapore Institute of Technology
         </h3>
         <span>
