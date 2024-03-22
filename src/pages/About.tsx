@@ -9,7 +9,7 @@ function About() {
     <Container>
       <AboutMe />
 
-      <div className="flex justify-center mb-16">
+      <div className="flex justify-center mt-12 mb-16">
         <FaNetworkWired />
       </div>
 
