@@ -1,5 +1,17 @@
 [
     {
+        "id": "tradeoffs-swe",
+        "markdown": "tradeoffs-swe.md",
+        "title": "Tradeoffs in Software Engineering.",
+        "author": "Gavin Loo",
+        "date": "31 May 2023",
+        "subtitle": "There is no silver bullet. Discussing my thoughts on tradeoffs and pragmatism.",
+        "tags": [
+            "software engineering", "decision making", "architecture", "life", "programming"
+        ],
+        "hero_image": "/blogs/tradeoffs-swe/tradeoffs-swe-hero.jpg"
+    },
+    {
         "id": "css-decoded",
         "markdown": "css-decoded.md",
         "title": "CSS Decoded.",

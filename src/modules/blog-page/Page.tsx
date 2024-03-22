@@ -89,6 +89,12 @@ function Page({ metadata }: PageProps) {
               {...props}
             />
           ),
+          b: ({ node, ...props }) => (
+            <b
+              className="tracking-wider font-bold font-customInter text-custom-purple"
+              {...props}
+            />
+          ),
           li: ({ node, ...props }) => {
             return (
               <div className="inline-flex gap-4 mt-1 mb-1">
@@ -101,6 +107,14 @@ function Page({ metadata }: PageProps) {
             return (
               <code
                 className="font-customMono px-2 py-[1px] bg-gray-900 text-custom-whiskey rounded-sm"
+                {...props}
+              />
+            );
+          },
+          pre: ({ node, ...props }) => {
+            return (
+              <pre
+                className="font-customMono p-4 mt-6 mb-6 bg-gray-900 rounded-sm"
                 {...props}
               />
             );

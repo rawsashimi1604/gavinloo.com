@@ -28,12 +28,12 @@ function BlogSection() {
       </div>
 
       {/* Blogs */}
-      <div className="flex flex-col gap-2 mt-20">
+      <div className="flex flex-col gap-6 mt-20">
         {metadataJson.map((article) => {
           return (
             <Link
               to={`/blog/${article.id}`}
-              className="bg-custom-dark/30 rounded-xl flex flex-col transition-all hover:translate-y-1 p-8 pb-6"
+              className="bg-custom-dark/30 rounded-xl flex flex-col transition-all hover:translate-y-1 p-8 pb-6 hover:bg-custom-dark/40"
             >
               <h1 className="text-custom-chaKy font-medium tracking-wider text-2xl mb-2 font-customEyeCatcher">
                 {article.title}
