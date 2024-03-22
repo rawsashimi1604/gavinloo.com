@@ -8,7 +8,7 @@ export interface ContainerProps {
 
 function Container({ children }: ContainerProps) {
   return (
-    <main className="bg-custom-bg text-custom-lightWhite min-w-screen min-h-screen px-10 flex justify-center pb-10 pt-2">
+    <main className="bg-custom-bg text-custom-lightWhite min-w-screen min-h-screen px-10 flex justify-center pb-10 pt-2 font-customInter">
       <Navbar />
       <div className="w-screen md:w-[1000px] h-full mt-16">
         {children}
