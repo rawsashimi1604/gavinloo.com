@@ -24,7 +24,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:contentId" element={<BlogPost />} />
-          <Route path="*" element={<NotFound404 />} />
+          <Route path="/*" element={<NotFound404 />} />
         </Routes>
       </BrowserRouter>
     </>
