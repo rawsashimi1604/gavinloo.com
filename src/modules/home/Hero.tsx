@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../../components/typography/Header";
 import ImportantText from "../../components/typography/ImportantText";
 

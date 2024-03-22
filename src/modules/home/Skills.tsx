@@ -1,13 +1,9 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import Header from "../../components/typography/Header";
 
 import { FaJava, FaLinux } from "react-icons/fa";
 import {
-  SiAmazon,
   SiAmazonaws,
-  SiAmazonec2,
-  SiAmazonroute53,
-  SiAmazons3,
   SiAxios,
   SiAzuredevops,
   SiAzurepipelines,
@@ -17,7 +13,6 @@ import {
   SiCucumber,
   SiDocker,
   SiDotnet,
-  SiEnvoyproxy,
   SiExpress,
   SiGit,
   SiGithub,
@@ -68,11 +63,9 @@ import { SiCplusplus } from "react-icons/si";
 import { SiCsharp } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiGnubash } from "react-icons/si";
-
 import { SiReact } from "react-icons/si";
 import { GoDotFill } from "react-icons/go";
 import Comment from "../../components/typography/Comment";
-import StringText from "../../components/typography/StringText";
 import ConsoleLog from "../../components/typography/ConsoleLog";
 
 export interface SkillIconProps {

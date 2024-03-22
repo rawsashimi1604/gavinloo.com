@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Header from "../../components/typography/Header";
-import ImportantText from "../../components/typography/ImportantText";
 
 function AboutMe() {
   return (

@@ -4,7 +4,6 @@ import { GoDotFill } from "react-icons/go";
 import ImportantText from "../../components/typography/ImportantText";
 import { BlogTag } from "../blog/BlogSection";
 import { useEffect, useState } from "react";
-import Comment from "../../components/typography/Comment";
 
 export type Metadata = {
   id: string;

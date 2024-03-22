@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
-  function isSelected(path) {
+  function isSelected(path: string) {
     return path == window.location.pathname;
   }
 
