@@ -99,8 +99,10 @@ function MethodText({ text }: MethodTextProps) {
 
 function ReadingListText({ text }: MethodTextProps) {
   return (
-    <div className="flex items-center gap-2">
-      <GoDotFill className="w-2 h-2 mt-1 text-custom-lightwhite" />
+    <div className="flex items-start gap-2">
+      <div className="flex">
+        <GoDotFill className="mt-1.5 text-[8px] text-custom-lightwhite" />
+      </div>
       <span className="inline-block tracking-wider text-sm text-custom-malibu">
         {text}
       </span>
