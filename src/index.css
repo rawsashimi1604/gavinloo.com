@@ -5,3 +5,7 @@
 body {
   background-color: #282c34;
 }
+
+pre {
+  white-space: pre-wrap;
+}
