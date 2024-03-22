@@ -10,7 +10,7 @@ import Work from "./pages/Work";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Blog from "./pages/Blog";
-import NotFound from "./pages/NotFound";
+import NotFound404 from "./pages/NotFound404";
 import BlogPost from "./pages/BlogPost";
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blogpost" element={<BlogPost />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/blog/:contentId" element={<BlogPost />} />
+          <Route path="*" element={<NotFound404 />} />
         </Routes>
       </BrowserRouter>
     </>

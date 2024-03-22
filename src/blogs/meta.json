@@ -1,0 +1,14 @@
+[
+    {
+        "id": "css-decoded",
+        "markdown": "css-decoded.md",
+        "title": "CSS Decoded.",
+        "author": "Gavin Loo",
+        "date": "18 May 2023",
+        "subtitle": "Sharing my thoughts on how I think about HTML and Cascading Style Sheets (CSS)!",
+        "tags": [
+            "html", "css", "js"
+        ],
+        "hero_image": "hero.png"
+    }
+]
