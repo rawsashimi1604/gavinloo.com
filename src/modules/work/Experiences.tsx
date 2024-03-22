@@ -20,7 +20,7 @@ function Experiences() {
   return (
     <div className="mb-2">
       <Header text="Career Stuff." />
-      <div className="flex w-full items-center justify-center mt-6">
+      <div className="flex w-full items-center justify-center mt-12">
         <ImportantText text="A breakdown of my professional experience." />
       </div>
 

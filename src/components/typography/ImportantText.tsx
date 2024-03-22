@@ -5,7 +5,7 @@ export interface ImportantTextProps {
 }
 
 function ImportantText({ text }: ImportantTextProps) {
-  return <h2 className="text-sm text-center tracking-wider">{text}</h2>;
+  return <h2 className="text-md text-center tracking-wider">{text}</h2>;
 }
 
 export default ImportantText;

@@ -1,7 +1,14 @@
 import Container from "../components/layout/Container";
+import ProjectsList from "../modules/projects/ProjectsList";
 
 function Projects() {
-  return <Container>Projects</Container>;
+  return (
+    <Container>
+      <div className="mt-6 mb-12">
+        <ProjectsList />
+      </div>
+    </Container>
+  );
 }
 
 export default Projects;
