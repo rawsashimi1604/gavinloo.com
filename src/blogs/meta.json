@@ -1,5 +1,17 @@
 [
     {
+        "id": "build-api-gateway-1",
+        "markdown": "build-api-gateway-1.md",
+        "title": "Build an API Gateway Part 1: API Gateway Pattern.",
+        "author": "Gavin Loo",
+        "date": "12 August 2023",
+        "subtitle": "Part of the Building an API Gateway series. Understanding the API Gateway Pattern",
+        "tags": [
+            "api gateway", "architecture", "api", "microservices"
+        ],
+        "hero_image": "/blogs/build-api-gateway-1/api-gateway-1-hero.jpg"
+    },
+    {
         "id": "tradeoffs-swe",
         "markdown": "tradeoffs-swe.md",
         "title": "Tradeoffs in Software Engineering.",

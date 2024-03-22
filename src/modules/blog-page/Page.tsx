@@ -89,17 +89,25 @@ function Page({ metadata }: PageProps) {
               {...props}
             />
           ),
-          b: ({ node, ...props }) => (
-            <b
-              className="tracking-wider font-bold font-customInter text-custom-purple"
+          strong: ({ node, ...props }) => (
+            <strong
+              className="mt-3 mb-3 tracking-wider font-bold font-customInter text-custom-chaKy"
               {...props}
             />
           ),
+          ol: ({ node, ...props }) => {
+            return (
+              <div className="inline-flex gap-4">
+                <GoDotFill className="min-w-3 w-4 h-3 mt-1.5 text-custom-purple" />
+                <ol {...props} className="tracking-wide font-customInter" />
+              </div>
+            );
+          },
           li: ({ node, ...props }) => {
             return (
-              <div className="inline-flex gap-4 mt-1 mb-1">
+              <div className="inline-flex gap-4 mt-2 mb-2">
                 <GoDotFill className="min-w-3 w-4 h-3 mt-1.5 text-custom-purple" />
-                <li {...props} />
+                <li {...props} className="tracking-wide font-customInter" />
               </div>
             );
           },
