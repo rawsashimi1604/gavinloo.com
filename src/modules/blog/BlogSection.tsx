@@ -25,7 +25,7 @@ function BlogSection() {
       </div>
 
       {/* Blogs */}
-      <div className="flex flex-col gap-2 mt-12">
+      <div className="flex flex-col gap-2 mt-20">
         <div className="bg-custom-dark/30 rounded-xl flex flex-col transition-all hover:translate-y-1 p-8 pb-6">
           <h1 className="text-custom-chaKy font-medium tracking-wider text-2xl mb-2 font-customEyeCatcher">
             CSS Decoded.
@@ -40,10 +40,9 @@ function BlogSection() {
             Sheets (CSS)!
           </h2>
           <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BlogTag text="HTML" />
-            <BlogTag text="HTML" />
-            <BlogTag text="HTML" />
-            <BlogTag text="HTML" />
+            <BlogTag text="html" />
+            <BlogTag text="html" />
+            <BlogTag text="html" />
           </div>
         </div>
       </div>

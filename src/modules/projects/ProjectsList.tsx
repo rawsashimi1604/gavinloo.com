@@ -26,10 +26,10 @@ function ProjectsList() {
           className="flex justify-between gap-3 col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
-            <h3 className="text-custom-chaKy font-customInter tracking-wider">
+            <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
               Sushi Gateway
             </h3>
-            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter">
+            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter text-sm">
               A lightweight modular API Gateway written in Go.
             </span>
           </div>
@@ -45,10 +45,10 @@ function ProjectsList() {
           className="flex justify-between gap-3 col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
-            <h3 className="text-custom-chaKy font-customInter tracking-wider">
+            <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
               Kubernetes Starter
             </h3>
-            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter">
+            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter text-sm">
               Excalidraw diagram for Kubernetes.
             </span>
           </div>
@@ -64,10 +64,10 @@ function ProjectsList() {
           className="flex gap-3 justify-between col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
-            <h3 className="text-custom-chaKy font-customInter tracking-wider">
+            <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
               ReversionSys
             </h3>
-            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter">
+            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter text-sm">
               Semi-Automated Trading Bot using IBKR TWS API. Backtesting results
               included.
             </span>
@@ -84,10 +84,10 @@ function ProjectsList() {
           className="flex gap-3 justify-between col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
-            <h3 className="text-custom-chaKy font-customInter tracking-wider">
+            <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
               Personal Website
             </h3>
-            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter">
+            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter text-sm">
               React app for this website. Includes instructions on how to host
               and deploy your own.
             </span>
@@ -101,10 +101,10 @@ function ProjectsList() {
           className="flex gap-3 justify-between col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
-            <h3 className="text-custom-chaKy font-customInter tracking-wider">
+            <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
               Spotify Clone
             </h3>
-            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter">
+            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter text-sm">
               Spotify web application replica. Requires premium.
             </span>
           </div>
@@ -120,10 +120,10 @@ function ProjectsList() {
           className="flex gap-3 justify-between col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
-            <h3 className="text-custom-chaKy font-customInter tracking-wider">
+            <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
               Poke TCG DB
             </h3>
-            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter">
+            <span className="inline-block mt-7 text-custom-lightWhite tracking-wide font-medium font-customInter text-sm">
               Pokemon Trading Card Game database web application.
             </span>
           </div>
