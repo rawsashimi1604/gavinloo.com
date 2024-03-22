@@ -33,7 +33,7 @@ function Experiences() {
         <ConsoleLog text="i'm currently on a Work Study Degree program with Standard Chartered Bank. it's a term in term out program consisting of 3 total cycles. on my 3rd cycle now!" />
       </div>
 
-      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/10 rounded-[20px]">
         <h3 className="text-lg  text-custom-fountainBlue">
           Standard Chartered Bank
         </h3>
@@ -50,7 +50,7 @@ function Experiences() {
         <div className="mt-2 text-sm">- Work ongoing!</div>
       </div>
 
-      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/10 rounded-[20px]">
         <h3 className="text-lg  text-custom-fountainBlue">
           Singapore Institute of Technology
         </h3>
@@ -123,7 +123,7 @@ function Experiences() {
         </div>
       </div>
 
-      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/10 rounded-[20px]">
         <h3 className="text-lg  text-custom-fountainBlue">
           Standard Chartered Bank
         </h3>
@@ -176,7 +176,7 @@ function Experiences() {
         </div>
       </div>
 
-      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/10 rounded-[20px]">
         <h3 className="text-lg  text-custom-fountainBlue">
           Standard Chartered Bank
         </h3>
@@ -235,7 +235,7 @@ function Experiences() {
         SCHOOL
       </h2>
 
-      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/20 rounded-[20px]">
+      <div className="mt-4 font-customMono p-4 bg-custom-lightDark/10 rounded-[20px]">
         <h3 className="text-lg  text-custom-fountainBlue">
           Singapore Institute of Technology
         </h3>
