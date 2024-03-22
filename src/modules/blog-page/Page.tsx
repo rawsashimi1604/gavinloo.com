@@ -4,6 +4,7 @@ import { GoDotFill } from "react-icons/go";
 import ImportantText from "../../components/typography/ImportantText";
 import { BlogTag } from "../blog/BlogSection";
 import { useEffect, useState } from "react";
+import Comment from "../../components/typography/Comment";
 
 export type Metadata = {
   id: string;
@@ -56,7 +57,10 @@ function Page({ metadata }: PageProps) {
           })}
         </div>
 
-        <img src={metadata.hero_image} className="mt-14 opacity-80" />
+        <img
+          src={metadata.hero_image}
+          className="mt-14 opacity-80 shadow-lg shadow-gray-900"
+        />
       </div>
 
       <Markdown
@@ -104,7 +108,10 @@ function Page({ metadata }: PageProps) {
           img: ({ node, ...props }) => {
             return (
               <div className="flex justify-center">
-                <img className="mt-6 mb-6 opacity-80" {...props} />
+                <img
+                  className="mt-6 mb-6 opacity-80 shadow-lg shadow-gray-900"
+                  {...props}
+                />
               </div>
             );
           },
