@@ -66,19 +66,19 @@ function Page({ metadata }: PageProps) {
         components={{
           h1: ({ node, ...props }) => (
             <h1
-              className="mt-8 mb-8 font-customEyeCatcher text-5xl text-custom-chaKy"
+              className="mt-8 mb-8 font-customEyeCatcher text-4xl md:text-5xl text-custom-chaKy"
               {...props}
             />
           ),
           h2: ({ node, ...props }) => (
             <h2
-              className="mt-7 mb-7 font-customEyeCatcher text-4xl text-custom-malibu"
+              className="mt-7 mb-7 font-customEyeCatcher text-3xl md:text-4xl text-custom-malibu"
               {...props}
             />
           ),
           h3: ({ node, ...props }) => (
             <h3
-              className="mt-6 mb-6 font-customEyeCatcher text-3xl text-custom-coral"
+              className="mt-6 mb-6 font-customEyeCatcher text-2xl md:text-3xl text-custom-coral"
               {...props}
             />
           ),
