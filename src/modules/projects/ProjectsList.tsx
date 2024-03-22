@@ -23,7 +23,7 @@ function ProjectsList() {
         <Link
           to="https://github.com/rawsashimi1604/sushi-gateway"
           target="_blank"
-          className="flex justify-between gap-3 col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
+          className="flex justify-between gap-3 col-span-5 md:col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
             <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
@@ -42,7 +42,7 @@ function ProjectsList() {
         <Link
           to="https://github.com/rawsashimi1604/k8s-starter-diagram"
           target="_blank"
-          className="flex justify-between gap-3 col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
+          className="flex justify-between gap-3 col-span-5 md:col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
             <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
@@ -61,7 +61,7 @@ function ProjectsList() {
         <Link
           to="https://github.com/rawsashimi1604/ReversionSys"
           target="_blank"
-          className="flex gap-3 justify-between col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
+          className="flex gap-3 justify-between col-span-5 md:col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
             <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
@@ -81,7 +81,7 @@ function ProjectsList() {
         <Link
           to="https://github.com/rawsashimi1604/personal-website"
           target="_blank"
-          className="flex gap-3 justify-between col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
+          className="flex gap-3 justify-between col-span-5 md:col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
             <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
@@ -98,7 +98,7 @@ function ProjectsList() {
         <Link
           to="https://github.com/rawsashimi1604/Spotify-Clone"
           target="_blank"
-          className="flex gap-3 justify-between col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
+          className="flex gap-3 justify-between col-span-5 md:col-span-3 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
             <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">
@@ -117,7 +117,7 @@ function ProjectsList() {
         <Link
           to="https://github.com/rawsashimi1604/Poke_TCG_DB"
           target="_blank"
-          className="flex gap-3 justify-between col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
+          className="flex gap-3 justify-between col-span-5 md:col-span-2 p-8 rounded-md bg-custom-dark/20 w-full duration-150 hover:-translate-y-1 hover:bg-custom-dark/25"
         >
           <div>
             <h3 className="text-custom-chaKy text-lg font-customEyeCatcher tracking-wider">

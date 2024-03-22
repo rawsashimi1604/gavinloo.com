@@ -4,7 +4,7 @@ export interface HeaderProps {
 
 function Header({ text }: HeaderProps) {
   return (
-    <h1 className="font-customEyeCatcher text-custom-malibu text-7xl tracking-wide text-center">
+    <h1 className="font-customEyeCatcher text-custom-malibu text-6xl md:text-7xl tracking-wide text-center">
       {text}
     </h1>
   );

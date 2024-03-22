@@ -3,12 +3,12 @@ import Header from "../../components/typography/Header";
 
 function AboutMe() {
   return (
-    <section className="font-customRoboto flex-col items-center justify-center mt-6 mb-16">
-      <div className="mb-2">
+    <section className="font-customRoboto  items-center justify-center mt-6 md:mb-16">
+      <div className="md:mb-2">
         <Header text="About me." />
       </div>
 
-      <div className="mt-20 flex items-center justify-between gap-16">
+      <div className="mt-10 md:mt-20 flex flex-col md:flex-row items-center  justify-between gap-8 md:gap-16">
         <img
           src="profile.jpeg"
           className="rounded-full shadow-gray-900 shadow-lg h-72 w-72"

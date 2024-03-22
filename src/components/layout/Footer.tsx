@@ -2,7 +2,7 @@ import { FaSpotify } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="flex justify-between">
+    <footer className="flex gap-5 md:gap-0 flex-col md:flex-row justify-between">
       {/* Spotify + copyright */}
       <div>
         <div
@@ -12,7 +12,7 @@ function Footer() {
               "_blank"
             )
           }
-          className="bg-custom-malibu/20 p-3 px-5 rounded-[40px] flex items-center gap-4 w-[400px] mb-10 font-customRoboto duration-150 cursor-pointer hover:-translate-y-2 ease-in-out"
+          className="bg-custom-malibu/20 p-3 px-5 rounded-[40px] flex items-center gap-4 md:w-[400px] mb-10 font-customRoboto duration-150 cursor-pointer hover:-translate-y-2 ease-in-out"
         >
           <FaSpotify className="w-12 h-12" />
           <div className="">

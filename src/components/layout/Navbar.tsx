@@ -26,7 +26,7 @@ function Navbar() {
         className={`font-customInter text-custom-chaKy flex items-center justify-center py-5`}
       >
         <ul
-          className={`flex items-center justify-center gap-6 text-sm tracking-wider px-2 py-1 rounded-[30px] ${
+          className={`flex items-center justify-center gap-1 md:gap-6 text-sm tracking-wider px-1 md:px-2 py-1 rounded-[30px] ${
             scrolled &&
             "bg-gray-900 shadow-sm shadow-custom-fountainBlue rounded-lg"
           }`}
@@ -38,7 +38,7 @@ function Navbar() {
               } flex items-center justify-center gap-2 cursor-pointer py-1.5 px-3 `}
             >
               Home
-              <span className="inline-block text-custom-lightWhite text-xs py-1 px-2.5 rounded-lg border-custom-dark border-[0.5px]">
+              <span className="hidden md:inline-block text-custom-lightWhite text-xs py-1 md:px-2.5 rounded-lg border-custom-dark border-[0.5px] ">
                 /
               </span>
             </li>

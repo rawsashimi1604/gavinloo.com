@@ -84,7 +84,7 @@ function Page({ metadata }: PageProps) {
           ),
           p: ({ node, ...props }) => (
             <p
-              className="mt-3 mb-3 tracking-wider font-customInter"
+              className="mt-5 mb-5 tracking-wider font-customInter"
               {...props}
             />
           ),
@@ -121,7 +121,7 @@ function Page({ metadata }: PageProps) {
           pre: ({ node, ...props }) => {
             return (
               <pre
-                className="font-customMono p-4 mt-6 mb-6 bg-gray-900 rounded-sm"
+                className="font-customMono p-4 mt-6 mb-6 bg-gray-900 rounded-sm text-wrap"
                 {...props}
               />
             );
