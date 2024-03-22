@@ -1,5 +1,4 @@
 import Markdown from "react-markdown";
-import Article from "../../blogs/test.md?raw";
 import Header from "../../components/typography/Header";
 import { GoDotFill } from "react-icons/go";
 import ImportantText from "../../components/typography/ImportantText";
@@ -35,7 +34,7 @@ function Page({ metadata }: PageProps) {
   return (
     <div className="pt-2">
       {/* Article Metadata */}
-      <div className="mb-20">
+      <div className="mb-16">
         <div className="mb-12">
           <Header text={metadata.title} />
         </div>
@@ -56,25 +55,59 @@ function Page({ metadata }: PageProps) {
             return <BlogTag text={tag} />;
           })}
         </div>
+
+        <img src={metadata.hero_image} className="mt-14 opacity-80" />
       </div>
 
       <Markdown
         components={{
           h1: ({ node, ...props }) => (
             <h1
-              className="mb-8 font-customEyeCatcher text-5xl text-custom-malibu"
+              className="mt-8 mb-8 font-customEyeCatcher text-5xl text-custom-chaKy"
               {...props}
             />
           ),
           h2: ({ node, ...props }) => (
             <h2
-              className="mb-6 font-customEyeCatcher text-4xl text-custom-malibu"
+              className="mt-7 mb-7 font-customEyeCatcher text-4xl text-custom-malibu"
+              {...props}
+            />
+          ),
+          h3: ({ node, ...props }) => (
+            <h3
+              className="mt-6 mb-6 font-customEyeCatcher text-3xl text-custom-coral"
               {...props}
             />
           ),
           p: ({ node, ...props }) => (
-            <p className="tracking-wide font-medium text-sm" {...props} />
+            <p
+              className="mt-3 mb-3 tracking-wider font-customInter"
+              {...props}
+            />
           ),
+          li: ({ node, ...props }) => {
+            return (
+              <div className="inline-flex gap-4 mt-1 mb-1">
+                <GoDotFill className="min-w-3 w-4 h-3 mt-1.5 text-custom-purple" />
+                <li {...props} />
+              </div>
+            );
+          },
+          code: ({ node, ...props }) => {
+            return (
+              <code
+                className="font-customMono px-2 py-[1px] bg-gray-900 text-custom-whiskey rounded-sm"
+                {...props}
+              />
+            );
+          },
+          img: ({ node, ...props }) => {
+            return (
+              <div className="flex justify-center">
+                <img className="mt-6 mb-6 opacity-80" {...props} />
+              </div>
+            );
+          },
         }}
       >
         {content}
