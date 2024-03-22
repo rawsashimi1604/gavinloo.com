@@ -2,6 +2,8 @@ import Markdown from "react-markdown";
 import Article from "../../blogs/test.md?raw";
 import Header from "../../components/typography/Header";
 import { GoDotFill } from "react-icons/go";
+import ImportantText from "../../components/typography/ImportantText";
+import { BlogTag } from "../blog/BlogSection";
 
 export type Metadata = {
   id: string;
@@ -26,7 +28,10 @@ function Page({ metadata }: PageProps) {
         <div className="mb-12">
           <Header text={metadata.title} />
         </div>
-        <div className="flex items-center justify-center gap-1 text-sm text-custom-whiskey font-medium tracking-wider mb-1.5">
+        <div className="mb-6">
+          <ImportantText text={metadata.subtitle} />
+        </div>
+        <div className="flex items-center justify-center gap-1 text-sm text-custom-whiskey font-medium tracking-wider mb-6">
           <img
             src="/profile.jpeg"
             className="w-6 h-6 rounded-full border mr-1.5 "
@@ -34,6 +39,11 @@ function Page({ metadata }: PageProps) {
           <span className="text-custom-chaKy">{metadata.author}</span>
           <GoDotFill className="w-2 h-2 mt-0.5 text-custom-coral" />
           <span className="text-custom-chaKy">{metadata.date}</span>
+        </div>
+        <div className="mt-4 flex flex-wrap justify-center items-center gap-3">
+          {metadata.tags.map((tag) => {
+            return <BlogTag text={tag} />;
+          })}
         </div>
       </div>
 

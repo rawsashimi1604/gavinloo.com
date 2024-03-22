@@ -9,7 +9,7 @@ export interface BlogTagProps {
   text: string;
 }
 
-function BlogTag({ text }: BlogTagProps) {
+export function BlogTag({ text }: BlogTagProps) {
   return (
     <div className="text-xs px-2 py-1 rounded-md bg-custom-chaKy/80 text-black font-medium tracking-wider">
       {text}
