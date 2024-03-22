@@ -7,7 +7,7 @@ function Journey() {
         It all began with music.
       </h2>
       <p className="font-customInter tracking-wide mt-5">
-        <Comment text="TODO: to be added!" />
+        <Comment text="// TODO: to be added!" />
       </p>
     </div>
   );
