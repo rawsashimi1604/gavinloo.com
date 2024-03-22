@@ -4,6 +4,7 @@ import Header from "../../components/typography/Header";
 import { GoDotFill } from "react-icons/go";
 import ImportantText from "../../components/typography/ImportantText";
 import { BlogTag } from "../blog/BlogSection";
+import { useEffect, useState } from "react";
 
 export type Metadata = {
   id: string;
@@ -21,6 +22,16 @@ export interface PageProps {
 }
 
 function Page({ metadata }: PageProps) {
+  const [content, setContent] = useState("");
+
+  useEffect(() => {
+    import(`../../blogs/${metadata.id}.md`).then((md) => {
+      fetch(md.default)
+        .then((res) => res.text())
+        .then((mdContent) => setContent(mdContent));
+    });
+  }, [metadata]);
+
   return (
     <div className="pt-2">
       {/* Article Metadata */}
@@ -66,7 +77,7 @@ function Page({ metadata }: PageProps) {
           ),
         }}
       >
-        {Article}
+        {content}
       </Markdown>
     </div>
   );
