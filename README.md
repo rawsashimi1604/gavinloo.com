@@ -24,4 +24,7 @@ classic: {
 ## Deploying
 
 - Vercel
-- AWS
+  - Fork this repository
+  - Go to vercel, import repository
+  - Create project and done!
+  
