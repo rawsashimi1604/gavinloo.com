@@ -16,6 +16,10 @@ function BlogPost() {
     }
   }, [contentId]);
 
+  useEffect(() => {
+    document.title = metadata?.title + " | Gavin Loo";
+  }, [metadata]);
+
   return (
     <Container>
       <div className="mt-6 mb-12">

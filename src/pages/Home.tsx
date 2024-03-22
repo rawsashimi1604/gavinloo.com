@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import Container from "../components/layout/Container";
 import Hero from "../modules/home/Hero";
 import KeyPoints from "../modules/home/KeyPoints";
 import Skills from "../modules/home/Skills";
 
 function Home() {
+  useEffect(() => {
+    document.title = "Home | Gavin Loo";
+  }, []);
+
   return (
     <Container>
       <div className="mt-6">
