@@ -2,6 +2,7 @@ import "@fontsource/roboto";
 import "@fontsource-variable/inter";
 import "@fontsource-variable/jetbrains-mono";
 import "@fontsource/berkshire-swash";
+import "animate.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
