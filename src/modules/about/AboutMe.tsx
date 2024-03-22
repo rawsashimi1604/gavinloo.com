@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "../../components/typography/Header";
 import ImportantText from "../../components/typography/ImportantText";
 
@@ -8,9 +9,12 @@ function AboutMe() {
         <Header text="About me." />
       </div>
 
-      <div className="mt-20 flex justify-between gap-20">
-        <img src="profile.jpeg" className="rounded-full w-80" />
-        <div>
+      <div className="mt-20 flex items-center justify-between gap-16">
+        <img
+          src="profile.jpeg"
+          className="rounded-full shadow-gray-900 shadow-lg h-72 w-72"
+        />
+        <div className="">
           <h2 className="font-customEyeCatcher text-custom-chaKy text-4xl text-left">
             I'm a Software Engineer working from sunny Singapore!
           </h2>
@@ -25,9 +29,22 @@ function AboutMe() {
           </h4>
 
           <h4 className="font-medium font-customInter tracking-wide text-left mt-4">
-            I love sharing my knowledge with others and making a positive impact
-            - seeing others grow, learn, and succeed through the knowledge I
-            share brings me great joy!
+            I'm also into helping others grow through{" "}
+            <Link to="/blog">
+              <span className="inline-block text-custom-green duration-150 hover:-translate-y-0.5">
+                blogging
+              </span>
+            </Link>{" "}
+            and{" "}
+            <Link to="https://www.youtube.com/@codinggavin">
+              <span className="inline-block text-custom-green duration-150 hover:-translate-y-0.5">
+                Youtube
+              </span>
+            </Link>{" "}
+            , as well as teaching my friends programming!I love sharing my
+            knowledge with others and making a positive impact - seeing others
+            grow, learn, and succeed through the knowledge I share brings me
+            great joy!
           </h4>
         </div>
       </div>
