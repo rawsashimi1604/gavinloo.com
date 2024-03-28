@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import Header from "../../components/typography/Header";
 
-import { FaJava, FaLinux } from "react-icons/fa";
+import { FaCube, FaJava, FaLinux } from "react-icons/fa";
 import {
   SiAmazonaws,
   SiAxios,
@@ -181,6 +181,7 @@ function Skills() {
         <SkillIcon icon={<SiAmazonaws />} label="AWS" />
         <SkillIcon icon={<SiGithubactions />} label="GH ACTIONS" />
         <SkillIcon icon={<SiDocker />} label="DOCKER" />
+        <SkillIcon icon={<FaCube />} label="T.CONTAINER" />
         <SkillIcon icon={<SiKubernetes />} label="K8S" />
         <SkillIcon icon={<SiHelm />} label="HELM" />
         <SkillIcon icon={<SiRedhatopenshift />} label="OPENSHIFT" />
