@@ -47,7 +47,35 @@ function Experiences() {
           </span>
         </span>
 
-        <div className="mt-2 text-sm">- Work ongoing!</div>
+        <div className="mt-2 text-sm">
+          - Developed and deployed (Azure Pipelines) Java API Manifest
+          validation script to facilitate APIOps within the bank.
+        </div>
+        <div className="mt-2 text-sm">
+          - Designed and did proof-of-concept on stateless config file
+          declaration architecture to remove database dependency on Kong API
+          Gateway.
+        </div>
+        <div className="mt-2 text-sm">
+          - Developed and deployed (Openshift) integration testing REST APIs to
+          test end to end open banking flows.
+        </div>
+
+        <div className="mt-6">
+          <h2 className="text-custom-malibu mb-2">technologies</h2>
+          <div className="flex items-center gap-2 flex-wrap">
+            <WorkExperienceTag text="Java" />
+            <WorkExperienceTag text="Kong Gateway" />
+            <WorkExperienceTag text="REST API" />
+            <WorkExperienceTag text="Git" />
+            <WorkExperienceTag text="Azure Pipelines" />
+            <WorkExperienceTag text="Oauth2" />
+            <WorkExperienceTag text="Postman" />
+            <WorkExperienceTag text="JWT" />
+            <WorkExperienceTag text="Docker" />
+            <WorkExperienceTag text="Kubernetes" />
+          </div>
+        </div>
       </div>
 
       <div className="mt-4  p-4 bg-custom-dark/20 rounded-[20px] font-customInter tracking-wider duration-150 hover:-translate-y-1 hover:bg-custom-dark/25">
