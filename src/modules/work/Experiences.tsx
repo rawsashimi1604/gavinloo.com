@@ -60,6 +60,10 @@ function Experiences() {
           - Developed and deployed (Openshift) integration testing REST APIs to
           test end to end open banking flows.
         </div>
+        <div className="mt-2 text-sm">
+          - Developed unit test toolkit to enable teammates to verify HTTP responses against Open Banking 
+          Specification JSON Schemas.
+        </div>
 
         <div className="mt-6">
           <h2 className="text-custom-malibu mb-2">technologies</h2>
@@ -74,6 +78,11 @@ function Experiences() {
             <WorkExperienceTag text="JWT" />
             <WorkExperienceTag text="Docker" />
             <WorkExperienceTag text="Kubernetes" />
+            <WorkExperienceTag text="Openshift" />
+            <WorkExperienceTag text="JUnit" />
+            <WorkExperienceTag text="Mockito" />
+            <WorkExperienceTag text="JSON Schema" />
+            <WorkExperienceTag text="Open API Specification" />
           </div>
         </div>
       </div>
