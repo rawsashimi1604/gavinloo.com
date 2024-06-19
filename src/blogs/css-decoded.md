@@ -1,4 +1,4 @@
-# Hey everyone, I hope this blog finds you well!
+# Hey everyone, I hope this blog finds you well
 
 I'm Gavin, and this is my very first blog post. It's 1:17am right now, and I couldn't sleep. I realized how much the software community has given me - open-source projects, mentors, and opportunities - and I wanted to contribute and give back somehow. Hopefully, you'll learn something from this article. Anyway, let's get down to business.
 
