@@ -83,7 +83,7 @@ public class PolicyRegistrationService {
 
 Looking much better!
 
-## Avoid Nesting
+### Avoid Nesting
 
 Another thing we tend to avoid is nesting code. Deeply nested code is bad and makes it hard to read. Imagine three nested blocks of if-else like this:
 
@@ -154,7 +154,7 @@ public class PolicyRegistrationService {
 
 As you can see, we moved the check for the user having more than 3 policies to the start, as well as the duplicate policy check. We managed to achieve a maximum of one level of nesting, making the code much more readable.
 
-## Avoid Magic Numbers
+### Avoid Magic Numbers
 
 Another common mistake in coding is hard-coding numbers. If a number has a specific meaning, it's common practice to assign it to a variable, or in most cases, a constant.
 
@@ -217,7 +217,7 @@ public class PolicyRegistrationService {
 }
 ```
 
-## Abstract Booleans into Variables or Methods
+### Abstract Booleans into Variables or Methods
 
 Another tip is to abstract booleans into variables or methods. This gives meaning to conditions and makes them more readable.
 
@@ -330,7 +330,7 @@ public class PolicyRegistrationService {
 
 Much better right? People who want to understand/maintain this code would have a much easier time in the future :)
 
-## Comments
+### Comments
 
 I want to talk about comments as well. Comments should explain the intent, and the code should be self-documenting. Heres the previous code with bad comments:
 
