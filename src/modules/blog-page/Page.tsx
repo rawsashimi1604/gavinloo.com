@@ -113,7 +113,7 @@ function Page({ metadata }: PageProps) {
           code: ({ node, ...props }) => {
             return (
               <code
-                className="font-customMono px-2 py-[1px] bg-gray-900 text-custom-whiskey rounded-sm"
+                className="font-customMono px-2 py-[1px] bg-gray-900 text-custom-whiskey rounded-sm text-wrap"
                 {...props}
               />
             );
