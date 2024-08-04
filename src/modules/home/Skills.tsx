@@ -190,7 +190,7 @@ function Skills() {
         <SkillIcon icon={<SiRedhatopenshift />} label="OPENSHIFT" />
         <SkillIcon icon={<SiElasticsearch />} label="ELASTIC" />
         <SkillIcon icon={<SiLogstash />} label="LOGSTASH" />
-        <SkillIcon icon={<SiKibana />} label="Kibana" />
+        <SkillIcon icon={<SiKibana />} label="KIBANA" />
       </div>
 
       <div className="flex flex-col md:flex-row md:items-center mt-6 gap-4 md:gap-12">
