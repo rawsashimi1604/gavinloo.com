@@ -48,6 +48,11 @@ function Experiences() {
         </span>
 
         <div className="mt-2 text-sm">
+          - Led development for consent reporting Java REST application,
+          automating generation of reports on API and open banking metrics for
+          regulatory compliance.
+        </div>
+        <div className="mt-2 text-sm">
           - Developed and deployed (Azure Pipelines) Java API Manifest
           validation script to facilitate APIOps within the bank.
         </div>
@@ -61,8 +66,8 @@ function Experiences() {
           test end to end open banking flows.
         </div>
         <div className="mt-2 text-sm">
-          - Developed unit test toolkit to enable teammates to verify HTTP responses against Open Banking 
-          Specification JSON Schemas.
+          - Developed unit test toolkit to enable teammates to verify HTTP
+          responses against Open Banking Specification JSON Schemas.
         </div>
 
         <div className="mt-6">
@@ -82,7 +87,13 @@ function Experiences() {
             <WorkExperienceTag text="JUnit" />
             <WorkExperienceTag text="Mockito" />
             <WorkExperienceTag text="JSON Schema" />
-            <WorkExperienceTag text="Open API Specification" />
+            <WorkExperienceTag text="Elastic" />
+            <WorkExperienceTag text="Kibana" />
+            <WorkExperienceTag text="Logstash" />
+            <WorkExperienceTag text="Java Spark" />
+            <WorkExperienceTag text="Jooq" />
+            <WorkExperienceTag text="Apache POI" />
+            <WorkExperienceTag text="iText" />
           </div>
         </div>
       </div>

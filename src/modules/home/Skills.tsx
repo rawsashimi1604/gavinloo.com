@@ -13,6 +13,7 @@ import {
   SiCucumber,
   SiDocker,
   SiDotnet,
+  SiElasticsearch,
   SiExpress,
   SiGit,
   SiGithub,
@@ -27,8 +28,10 @@ import {
   SiJira,
   SiJson,
   SiJunit5,
+  SiKibana,
   SiKong,
   SiKubernetes,
+  SiLogstash,
   SiMarkdown,
   SiMongodb,
   SiMysql,
@@ -185,6 +188,9 @@ function Skills() {
         <SkillIcon icon={<SiKubernetes />} label="K8S" />
         <SkillIcon icon={<SiHelm />} label="HELM" />
         <SkillIcon icon={<SiRedhatopenshift />} label="OPENSHIFT" />
+        <SkillIcon icon={<SiElasticsearch />} label="ELASTIC" />
+        <SkillIcon icon={<SiLogstash />} label="LOGSTASH" />
+        <SkillIcon icon={<SiKibana />} label="Kibana" />
       </div>
 
       <div className="flex flex-col md:flex-row md:items-center mt-6 gap-4 md:gap-12">
