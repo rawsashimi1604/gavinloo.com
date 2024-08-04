@@ -53,6 +53,10 @@ function Experiences() {
           metrics for regulatory compliance.
         </div>
         <div className="mt-2 text-sm">
+          - Help increase emphasis of unit testing, introducing Behavioural
+          Driven Development into codebase via Groovy and Spock framework.
+        </div>
+        <div className="mt-2 text-sm">
           - Developed and deployed (Azure Pipelines) Java API Manifest
           validation script to facilitate APIOps within the bank.
         </div>
@@ -94,6 +98,9 @@ function Experiences() {
             <WorkExperienceTag text="Jooq" />
             <WorkExperienceTag text="Apache POI" />
             <WorkExperienceTag text="iText" />
+            <WorkExperienceTag text="BDD" />
+            <WorkExperienceTag text="Groovy" />
+            <WorkExperienceTag text="Spock" />
           </div>
         </div>
       </div>

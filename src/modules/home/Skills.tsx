@@ -70,6 +70,7 @@ import { SiReact } from "react-icons/si";
 import { GoDotFill } from "react-icons/go";
 import Comment from "../../components/typography/Comment";
 import ConsoleLog from "../../components/typography/ConsoleLog";
+import { DiGroovy } from "react-icons/di";
 
 export interface SkillIconProps {
   icon: ReactElement;
@@ -128,6 +129,7 @@ function Skills() {
       <div className="flex flex-wrap items-center gap-2 py-2">
         <SkillIcon icon={<FaJava />} label="JAVA" />
         <SkillIcon icon={<FaGolang />} label="GOLANG" />
+        <SkillIcon icon={<DiGroovy />} label="GROOVY" />
         <SkillIcon icon={<SiJavascript />} label="JS" />
         <SkillIcon icon={<SiTypescript />} label="TS" />
         <SkillIcon icon={<FaPython />} label="PYTHON" />
