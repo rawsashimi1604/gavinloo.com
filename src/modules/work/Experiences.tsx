@@ -49,8 +49,8 @@ function Experiences() {
 
         <div className="mt-2 text-sm">
           - Led development for consent reporting Java REST application,
-          automating generation of reports on API and open banking metrics for
-          regulatory compliance.
+          automating generation of reports on API Gateway and open banking
+          metrics for regulatory compliance.
         </div>
         <div className="mt-2 text-sm">
           - Developed and deployed (Azure Pipelines) Java API Manifest
