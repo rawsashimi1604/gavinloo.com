@@ -13,6 +13,7 @@ import {
   SiCucumber,
   SiDocker,
   SiDotnet,
+  SiElasticsearch,
   SiExpress,
   SiGit,
   SiGithub,
@@ -27,8 +28,10 @@ import {
   SiJira,
   SiJson,
   SiJunit5,
+  SiKibana,
   SiKong,
   SiKubernetes,
+  SiLogstash,
   SiMarkdown,
   SiMongodb,
   SiMysql,
@@ -67,6 +70,7 @@ import { SiReact } from "react-icons/si";
 import { GoDotFill } from "react-icons/go";
 import Comment from "../../components/typography/Comment";
 import ConsoleLog from "../../components/typography/ConsoleLog";
+import { DiGroovy } from "react-icons/di";
 
 export interface SkillIconProps {
   icon: ReactElement;
@@ -125,6 +129,7 @@ function Skills() {
       <div className="flex flex-wrap items-center gap-2 py-2">
         <SkillIcon icon={<FaJava />} label="JAVA" />
         <SkillIcon icon={<FaGolang />} label="GOLANG" />
+        <SkillIcon icon={<DiGroovy />} label="GROOVY" />
         <SkillIcon icon={<SiJavascript />} label="JS" />
         <SkillIcon icon={<SiTypescript />} label="TS" />
         <SkillIcon icon={<FaPython />} label="PYTHON" />
@@ -185,6 +190,9 @@ function Skills() {
         <SkillIcon icon={<SiKubernetes />} label="K8S" />
         <SkillIcon icon={<SiHelm />} label="HELM" />
         <SkillIcon icon={<SiRedhatopenshift />} label="OPENSHIFT" />
+        <SkillIcon icon={<SiElasticsearch />} label="ELASTIC" />
+        <SkillIcon icon={<SiLogstash />} label="LOGSTASH" />
+        <SkillIcon icon={<SiKibana />} label="KIBANA" />
       </div>
 
       <div className="flex flex-col md:flex-row md:items-center mt-6 gap-4 md:gap-12">
