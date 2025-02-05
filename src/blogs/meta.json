@@ -1,5 +1,19 @@
 [
     {
+        "id": "software-testing",
+        "markdown": "software-testing.md",
+        "title": "Software Testing",
+        "author": "Gavin Loo",
+        "date": "5 Feb 2025",
+        "subtitle": "The test is more important than the unit.",
+        "tags": [
+            "software testing",
+            "philosophy",
+            "software engineering"
+        ],
+        "hero_image": "/blogs/software-testing/software-testing.jpg"
+    },
+    {
         "id": "reminder-to-myself",
         "markdown": "reminder.md",
         "title": "Reminder to myself.",
