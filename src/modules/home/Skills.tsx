@@ -4,6 +4,7 @@ import Header from "../../components/typography/Header";
 import { FaCube, FaJava, FaLinux } from "react-icons/fa";
 import {
   SiAmazonaws,
+  SiApachemaven,
   SiAxios,
   SiAzuredevops,
   SiAzurepipelines,
@@ -152,6 +153,7 @@ function Skills() {
         <SkillIcon icon={<SiPostman />} label="POSTMAN" />
         <SkillIcon icon={<SiSpring />} label="SPRING" />
         <SkillIcon icon={<SiGradle />} label="GRADLE" />
+        <SkillIcon icon={<SiApachemaven />} label="MAVEN" />
         <SkillIcon icon={<SiJunit5 />} label="JUNIT" />
         <SkillIcon icon={<SiNodedotjs />} label="NODE" />
         <SkillIcon icon={<SiNpm />} label="NPM" />
