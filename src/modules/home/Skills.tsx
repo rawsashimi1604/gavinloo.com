@@ -245,9 +245,12 @@ function Skills() {
         <MethodText text="data structures and algorithms" />
         <MethodText text="solid principles" />
         <MethodText text="rest api" />
+        <MethodText text="graphql" />
         <MethodText text="api security" />
         <MethodText text="authentication" />
         <MethodText text="authorization" />
+        <MethodText text="oauth2.0 + oidc" />
+        <MethodText text="openfga" />
         <MethodText text="basic networking" />
         <MethodText text="web protocols" />
         <MethodText text="uml and software diagramming" />
