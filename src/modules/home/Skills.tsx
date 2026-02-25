@@ -1,13 +1,11 @@
 import { ReactElement } from "react";
 import Header from "../../components/typography/Header";
+import { BiLogoVisualStudio } from "react-icons/bi";
 
 import { FaCube, FaJava, FaLinux } from "react-icons/fa";
 import {
-  SiAmazonaws,
   SiApachemaven,
   SiAxios,
-  SiAzuredevops,
-  SiAzurepipelines,
   SiBitbucket,
   SiConfluence,
   SiCss3,
@@ -55,16 +53,13 @@ import {
   SiTailwindcss,
   SiTestinglibrary,
   SiVim,
-  SiVisualstudiocode,
-  SiWindowsterminal,
   SiYaml,
+  SiQuarkus,
+  SiBruno,
 } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
-import { FaGolang } from "react-icons/fa6";
-import { SiC } from "react-icons/si";
-import { SiCplusplus } from "react-icons/si";
-import { SiCsharp } from "react-icons/si";
+import { FaAws, FaGolang } from "react-icons/fa6";
 import { SiHtml5 } from "react-icons/si";
 import { SiGnubash } from "react-icons/si";
 import { SiReact } from "react-icons/si";
@@ -72,6 +67,7 @@ import { GoDotFill } from "react-icons/go";
 import Comment from "../../components/typography/Comment";
 import ConsoleLog from "../../components/typography/ConsoleLog";
 import { DiGroovy } from "react-icons/di";
+import { VscAzureDevops } from "react-icons/vsc";
 
 export interface SkillIconProps {
   icon: ReactElement;
@@ -147,6 +143,8 @@ function Skills() {
         FRAMEWORKS AND TOOLS
       </h2>
       <div className="flex items-center gap-2 py-2 flex-wrap">
+        <SkillIcon icon={<SiQuarkus />} label="QUARKUS" />
+        <SkillIcon icon={<SiBruno />} label="BRUNO" />
         <SkillIcon icon={<SiPostman />} label="POSTMAN" />
         <SkillIcon icon={<SiSpring />} label="SPRING" />
         <SkillIcon icon={<SiGradle />} label="GRADLE" />
@@ -180,9 +178,8 @@ function Skills() {
         <SkillIcon icon={<SiGit />} label="GIT" />
         <SkillIcon icon={<SiGithub />} label="GITHUB" />
         <SkillIcon icon={<SiBitbucket />} label="BB" />
-        <SkillIcon icon={<SiAzuredevops />} label="AZURE" />
-        <SkillIcon icon={<SiAzurepipelines />} label="PIPELINE" />
-        <SkillIcon icon={<SiAmazonaws />} label="AWS" />
+        <SkillIcon icon={<VscAzureDevops />} label="AZURE" />
+        <SkillIcon icon={<FaAws />} label="AWS" />
         <SkillIcon icon={<SiGithubactions />} label="GH ACTIONS" />
         <SkillIcon icon={<SiDocker />} label="DOCKER" />
         <SkillIcon icon={<FaCube />} label="T.CONTAINER" />
@@ -216,12 +213,11 @@ function Skills() {
         <div>
           <h2 className="font-customRoboto tracking-widest">IDES</h2>
           <div className="flex  flex-wrap items-center gap-2 py-2">
-            <SkillIcon icon={<SiVisualstudiocode />} label="VSCODE" />
+            <SkillIcon icon={<BiLogoVisualStudio />} label="VSCODE" />
             <SkillIcon icon={<SiIntellijidea />} label="INTELLIJ" />
             <SkillIcon icon={<SiGoland />} label="GOLAND" />
             <SkillIcon icon={<SiVim />} label="VIM" />
             <SkillIcon icon={<SiNano />} label="GNU NANO" />
-            <SkillIcon icon={<SiWindowsterminal />} label="W. TERM" />
             <SkillIcon icon={<SiIterm2 />} label="ITERM2" />
           </div>
         </div>
