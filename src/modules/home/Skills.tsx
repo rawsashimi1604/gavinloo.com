@@ -58,6 +58,9 @@ import {
   SiBruno,
   SiKnative,
   SiNatsdotio,
+  SiFlyway,
+  SiLiquibase,
+  SiEnvoyproxy,
 } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
@@ -70,6 +73,7 @@ import Comment from "../../components/typography/Comment";
 import ConsoleLog from "../../components/typography/ConsoleLog";
 import { DiGroovy } from "react-icons/di";
 import { VscAzureDevops } from "react-icons/vsc";
+import { GiGorilla } from "react-icons/gi";
 
 export interface SkillIconProps {
   icon: ReactElement;
@@ -195,7 +199,7 @@ function Skills() {
         <SkillIcon icon={<SiNatsdotio />} label="NATS" />
       </div>
 
-      <div className="flex flex-col md:flex-row md:items-center mt-6 gap-4 md:gap-12">
+      <div className="flex flex-col md:flex-row mt-6 gap-4 md:gap-12">
         <div>
           <h2 className="font-customRoboto tracking-widest">DATABASES</h2>
           <div className="flex flex-wrap items-center gap-2 py-2">
@@ -203,15 +207,19 @@ function Skills() {
             <SkillIcon icon={<SiMysql />} label="MYSQL" />
             <SkillIcon icon={<SiMongodb />} label="MONGODB" />
             <SkillIcon icon={<SiSqlite />} label="SQLITE" />
+            <SkillIcon icon={<SiFlyway />} label="FLYWAY" />
+            <SkillIcon icon={<SiLiquibase />} label="LIQUIBASE" />
+
           </div>
         </div>
         <div>
           <h2 className="font-customRoboto tracking-widest">
-            API GATEWAY AND PROXIES
+            REVERSE PROXIES
           </h2>
           <div className="flex  flex-wrap items-center gap-2 py-2">
             <SkillIcon icon={<SiKong />} label="KONG" />
             <SkillIcon icon={<SiNginx />} label="NGINX" />
+            <SkillIcon icon={<SiEnvoyproxy />} label="ENVOY" />
           </div>
         </div>
         <div>
