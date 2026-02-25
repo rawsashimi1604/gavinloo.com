@@ -15,16 +15,17 @@ function AboutMe() {
         />
         <div className="">
           <h2 className="font-customEyeCatcher text-custom-chaKy text-4xl text-left">
-            I'm a Software Engineer working from sunny Singapore!
+            I'm a Software Engineer based in sunny Singapore!
           </h2>
           <h4 className="font-medium font-customInter tracking-wide text-left mt-6 ">
-            Over the past 1.5 years, I've worked in various areas across the web
-            stack, including frontend, backend as well as dabbled in devops. My
-            specialties lie in development and the domain of API Gateways.
+            I have 5 years of experience contributing to open-source projects
+            across frontend, backend, and Kubernetes. I'm a polyglot developer
+            across multiple languages with strong software engineering
+            fundamentals.
           </h4>
           <h4 className="font-medium font-customInter tracking-wide text-left mt-4 ">
-            Currently, I'm in my 3rd year studying my Bachelor's in Software
-            Engineering, graduating in 2025.
+            My specialty is in API gateways and reverse proxies, having worked in the space across my career. Currently, I
+            work as a Software Engineer at Standard Chartered.
           </h4>
 
           <h4 className="font-medium font-customInter tracking-wide text-left mt-4">
@@ -40,7 +41,7 @@ function AboutMe() {
                 Youtube
               </span>
             </Link>{" "}
-            , as well as teaching my friends programming!I love sharing my
+            , as well as teaching my friends and fellow colleagues software engineering best practices! I love sharing my
             knowledge with others and making a positive impact - seeing others
             grow, learn, and succeed through the knowledge I share brings me
             great joy!
