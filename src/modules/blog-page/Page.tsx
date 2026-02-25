@@ -43,7 +43,7 @@ function Page({ metadata }: PageProps) {
         </div>
         <div className="flex items-center justify-center gap-1 text-sm text-custom-whiskey font-medium tracking-wider mb-6">
           <img
-            src="/profile.jpeg"
+            src="/profile.jpg"
             className="w-6 h-6 rounded-full border mr-1.5 "
           />
           <span className="text-custom-chaKy">{metadata.author}</span>

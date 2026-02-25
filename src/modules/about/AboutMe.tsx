@@ -10,7 +10,7 @@ function AboutMe() {
 
       <div className="mt-10 md:mt-20 flex flex-col md:flex-row items-center  justify-between gap-8 md:gap-16">
         <img
-          src="profile.jpeg"
+          src="profile.jpg"
           className="rounded-full shadow-gray-900 shadow-lg h-72 w-72"
         />
         <div className="">
