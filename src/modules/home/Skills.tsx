@@ -56,6 +56,8 @@ import {
   SiYaml,
   SiQuarkus,
   SiBruno,
+  SiKnative,
+  SiNatsdotio,
 } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
@@ -144,12 +146,12 @@ function Skills() {
       </h2>
       <div className="flex items-center gap-2 py-2 flex-wrap">
         <SkillIcon icon={<SiQuarkus />} label="QUARKUS" />
-        <SkillIcon icon={<SiBruno />} label="BRUNO" />
-        <SkillIcon icon={<SiPostman />} label="POSTMAN" />
-        <SkillIcon icon={<SiSpring />} label="SPRING" />
-        <SkillIcon icon={<SiGradle />} label="GRADLE" />
         <SkillIcon icon={<SiApachemaven />} label="MAVEN" />
         <SkillIcon icon={<SiJunit5 />} label="JUNIT" />
+        <SkillIcon icon={<SiSpring />} label="SPRING" />
+        <SkillIcon icon={<SiBruno />} label="BRUNO" />
+        <SkillIcon icon={<SiPostman />} label="POSTMAN" />
+        <SkillIcon icon={<SiGradle />} label="GRADLE" />
         <SkillIcon icon={<SiNodedotjs />} label="NODE" />
         <SkillIcon icon={<SiNpm />} label="NPM" />
         <SkillIcon icon={<SiReact />} label="REACT" />
@@ -184,11 +186,13 @@ function Skills() {
         <SkillIcon icon={<SiDocker />} label="DOCKER" />
         <SkillIcon icon={<FaCube />} label="T.CONTAINER" />
         <SkillIcon icon={<SiKubernetes />} label="K8S" />
+        <SkillIcon icon={<SiKnative />} label="KNATIVE" />
         <SkillIcon icon={<SiHelm />} label="HELM" />
         <SkillIcon icon={<SiRedhatopenshift />} label="OPENSHIFT" />
         <SkillIcon icon={<SiElasticsearch />} label="ELASTIC" />
         <SkillIcon icon={<SiLogstash />} label="LOGSTASH" />
         <SkillIcon icon={<SiKibana />} label="KIBANA" />
+        <SkillIcon icon={<SiNatsdotio />} label="NATS" />
       </div>
 
       <div className="flex flex-col md:flex-row md:items-center mt-6 gap-4 md:gap-12">
@@ -231,6 +235,10 @@ function Skills() {
         <MethodText text="scrum" />
         <MethodText text="git flow" />
         <MethodText text="mentoring" />
+        <MethodText text="sprint planning" />
+        <MethodText text="requirement gathering" />
+        <MethodText text="technical planning" />
+        <MethodText text="delegation" />
         <MethodText text="clean code" />
         <MethodText text="software design patterns" />
         <MethodText text="software testing (unit, integration, e2e)" />

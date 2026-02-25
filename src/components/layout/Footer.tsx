@@ -21,7 +21,7 @@ function Footer() {
           </div>
         </div>
 
-        <span className="tracking-wide font-medium">&copy; 2024 Gavin Loo</span>
+        <span className="tracking-wide font-medium">&copy; 2026 Gavin Loo</span>
       </div>
 
       {/* Elsewehere and Contact */}
