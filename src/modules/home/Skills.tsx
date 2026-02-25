@@ -130,17 +130,14 @@ function Skills() {
       <div className="flex flex-wrap items-center gap-2 py-2">
         <SkillIcon icon={<FaJava />} label="JAVA" />
         <SkillIcon icon={<FaGolang />} label="GOLANG" />
-        <SkillIcon icon={<DiGroovy />} label="GROOVY" />
         <SkillIcon icon={<SiJavascript />} label="JS" />
         <SkillIcon icon={<SiTypescript />} label="TS" />
         <SkillIcon icon={<FaPython />} label="PYTHON" />
+        <SkillIcon icon={<DiGroovy />} label="GROOVY" />
         <SkillIcon icon={<SiHtml5 />} label="HTML" />
         <SkillIcon icon={<SiCss3 />} label="CSS" />
         <SkillIcon icon={<FaLinux />} label="LINUX" />
         <SkillIcon icon={<SiGnubash />} label="BASH" />
-        <SkillIcon icon={<SiC />} label="C" />
-        <SkillIcon icon={<SiCplusplus />} label="C++" />
-        <SkillIcon icon={<SiCsharp />} label="C#" />
         <SkillIcon icon={<SiJson />} label="JSON" />
         <SkillIcon icon={<SiYaml />} label="YAML" />
         <SkillIcon icon={<SiMarkdown />} label="MARKDOWN" />
