@@ -73,7 +73,6 @@ import Comment from "../../components/typography/Comment";
 import ConsoleLog from "../../components/typography/ConsoleLog";
 import { DiGroovy } from "react-icons/di";
 import { VscAzureDevops } from "react-icons/vsc";
-import { GiGorilla } from "react-icons/gi";
 
 export interface SkillIconProps {
   icon: ReactElement;
